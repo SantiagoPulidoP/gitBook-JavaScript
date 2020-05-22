@@ -1,0 +1,4 @@
+Propiedades:
+*value: Almacena el contenido del input
+*nodeName: Almacena el tipo de etiqueta HTML
+*required: valor tipo booleno que dice si el campo obligatorio

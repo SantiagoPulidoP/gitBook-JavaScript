@@ -1,0 +1,12 @@
+2 + 3 + '5'
+"55"
+
+La anterior ejecución da como resultado un string ("55"), ya que luego de hacer la suma (2+3 = 5) se concatena dicho resultado con el string "5", lo cual da como resultado final "55".
+
+
+
+
+'2' + 3 + 5
+"235"
+
+La anteriror ejecución da como resultado un string ("235") ya que la primera instrucción que realiza es concatenar el string "2" con el numero 3, dando como resultado un string ("23") y este a su vez es concatenado con el numero 5; resultando asi el string ("235").

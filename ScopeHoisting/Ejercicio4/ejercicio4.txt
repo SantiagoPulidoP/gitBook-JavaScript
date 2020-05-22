@@ -1,0 +1,87 @@
+'use strict';
+
+const message = '¡Hola!';
+function showMessage() {
+  console.log(message);
+}
+showMessage();
+
+***No presenta errores
+
+
+
+
+
+
+
+'use strict';
+
+function showMessage() {
+  console.log(message);
+}
+showMessage();
+const message = '¡Hola!';
+
+***Error!! message este definido al final del código
+
+
+
+
+
+
+
+
+
+'use strict';
+
+let message;
+
+function showMessage() {
+  console.log(message);
+}
+showMessage();
+message = '¡Hola!';
+showMessage();
+
+***No presenta error
+
+
+
+
+
+
+
+
+'use strict';
+
+message = '¡Hola!';
+
+function showMessage() {
+  console.log(message);
+}
+showMessage();
+
+***No presenta error
+
+
+
+
+
+
+
+
+
+'use strict';
+
+function showMessage() {
+  let message = '¡Hola!';
+  console.log(message);
+}
+
+let message = 'Hello';
+showMessage();
+
+***No presenta error
+
+
+

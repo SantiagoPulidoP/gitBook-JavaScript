@@ -1,0 +1,14 @@
+input{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 2px;
+    
+}
+
+.lessOpacity{
+    opacity: 0.4;
+    
+}

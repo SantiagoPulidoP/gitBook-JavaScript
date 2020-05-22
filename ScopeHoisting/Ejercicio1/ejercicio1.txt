@@ -1,0 +1,57 @@
+let message = 'El resultado será A';
+
+function changeMessage() {
+  message = 'El resultado será B';
+}
+
+changeMessage();
+
+console.log(message);
+
+
+***Imprimirá 'El resultado será B'
+
+
+
+
+
+
+
+let message = 'El resultado será A';
+
+function changeMessage() {
+  message = 'El resultado será B';
+}
+
+console.log(message);
+
+
+***Imprimirá 'El resultado será A'
+
+
+
+
+
+
+
+
+let message = 'El resultado será A';
+
+function changeMessage() {
+  let message = 'El resultado será B';
+}
+
+changeMessage();
+
+console.log(message);
+
+
+***Imprimirá 'El resultado será A'
+
+
+
+
+
+
+
+
